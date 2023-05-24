@@ -9,3 +9,5 @@ require (
 	gorm.io/driver/mysql v1.5.1 // indirect
 	gorm.io/gorm v1.25.1 // indirect
 )
+
+replace github.com/Taiki130/lock-box/internal => ./internal
