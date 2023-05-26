@@ -37,7 +37,7 @@ func main() {
 	flag.Parse()
 
 	if flag.NArg() == 0 {
-		fmt.Println("サブコマンドを指定してください。")
+		fmt.Println("Please specify a subcommand")
 		os.Exit(1)
 	}
 
